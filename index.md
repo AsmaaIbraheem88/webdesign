@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/normilize.css">
-        <link rel="stylesheet" href="../css/Font-Awesome-master/css/all.css">
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normilize.css">
+        <link rel="stylesheet" href="css/Font-Awesome-master/css/all.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
