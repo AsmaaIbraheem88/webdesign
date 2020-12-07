@@ -1,0 +1,465 @@
+/* framework */
+
+
+*{
+	 box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: auto; 
+}
+
+.main-color{
+    color: darkcyan;
+}
+.main-color2{
+    color: #fff;
+}
+
+.main-back{
+    background-color: orange;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin: auto; 
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(51,54,59,.8);
+    width: 100%;
+    height: 100%;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.hidden{
+    display: none;
+}
+
+/* start nav */
+
+.intro-09{
+  background-color: darkcyan;  
+  width: 100%;
+  padding: 15px;
+/*  position: fixed; */
+    
+}
+nav{
+   
+    overflow: hidden;
+    margin: 0px;
+    z-index: 1000;
+   
+}
+
+nav .logo{
+    float: left;
+/*    padding: 20px;*/
+    color: white;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;  
+    font-size: 15px;
+
+}
+
+nav .logo a:hover{
+    color: black;
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+}
+
+nav ul{
+    list-style: none;
+    float:right;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+/*    padding-right: 5px;*/
+    font-size: 14px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li:hover{
+    color: black;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+    transition: all 2s ease-in-out;
+    cursor: pointer;
+}
+nav ul .intro-0{
+/*   padding-left: 650px;*/
+}
+
+
+.img{
+    background-image: url(../images/asly3.jpeg);
+    background-size: cover;
+    height: 300px;
+}
+
+/* start services */
+
+.Services{
+    background-image: url(../images/asly10-2.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+
+
+.Services .h1{
+    padding-top: 100px;
+    font-size: 50px;
+    word-spacing: 10px;
+    font-family: 'Poppins', sans-serif;
+     animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-timing-function: ease-in-out; 
+    animation-name: fadeInDown;
+    margin-top: 0px;
+}
+
+
+.Services .p{
+    width: 90%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-timing-function: ease-in-out; 
+    animation-name: fadeInUp;
+}
+
+.Services #i-1{
+    float: left;
+    padding-top: 10px;
+}
+
+.Services #i-2{
+    float: right;
+    padding-top: 10px;
+}
+
+.Services .btn{
+    background-color: transparent;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 2px;
+    color: white;
+    border: 2px solid aqua;
+    animation-duration: 1s; 
+    animation-fill-mode: both; 
+    animation-timing-function: ease-in-out; 
+    animation-name: fadeInUp;
+}
+/* end services */
+
+/* start about */
+.about {
+    width: 100%;
+    overflow: hidden;
+}
+
+.about h2{
+    padding-top: 50px;
+    font-size: 30px;
+}
+ 
+.about .logo{
+/*    margin-top: 30px; */
+/*    padding: 60px; */
+}
+
+.about .about-child1{
+    float: right;
+    width: 50%; 
+}
+
+.about .about-child1 .logo-1{
+    padding-bottom: 50px;
+    font-size: 23px;
+}
+.about .about-child1 .logo-2{
+    padding-bottom: 10px;
+}
+
+.about .about-child2{
+    float: left;
+    width: 50%;
+    margin-bottom: 0px;
+
+}
+
+.about .about-child2 img{
+/*    margin-left: 130px;*/
+}
+
+/* end about */
+/* start features */
+.parents-features{
+    background-image: url(../images/02.jpeg);
+    background-size: cover;
+    height: 200px;
+    position: relative;
+}
+
+.parents-features .features h3{
+    display: inline;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.y{
+    font-family: 'Pacifico', cursive;
+    color: white; 
+    animation-duration: 2s; 
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+/* end features */
+
+/* start works */
+.work{
+    background-color:#8080800a;
+   
+}
+
+.work p{
+    padding-bottom: 20px;
+}
+
+.work .style{
+    
+     overflow: hidden;
+}
+.work  .style div{
+    float: left;
+    margin: 20px;
+}
+
+.work .sub-child1{
+/*    margin-left: 80px;*/
+}
+
+    
+.work  button{
+/*   margin-left: 640px;*/
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgba(245,124,0,91%);
+
+}
+
+.work   button:hover{
+   
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(245,124,0,91%);
+    color: white;
+    transition: all .1s ease-in-out;
+
+}
+
+
+
+/* end works */
+.team{
+    text-align: center;
+    overflow: hidden;
+    padding: 30px 50px;
+}
+
+/*
+.team h2{
+    padding-top:40px;
+}
+*/
+
+.team .lead{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.team .item{
+    float: left;
+    width: 20%;
+    margin: 2%;
+}
+
+.team .item img{
+    
+    width: 100%;
+    width: 100%
+}
+
+.team div p{
+    font-size: 20px;
+}
+
+
+
+.contact input[type="submit"]{
+    width: 40%;
+    height: 30px; 
+    background-color: darkcyan;
+    padding-bottom: 30px; 
+    padding-left: 10px; 
+    padding-top: 10px;  
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.contact input[type="submit"]:hover{
+    transition: 0s all ease-in-out;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+
+.icons  .child{
+    
+    overflow: hidden;
+    padding: 30px;
+}
+
+.icons .child div{
+    
+    float: left;
+    width: 30%
+    
+}
+
+
+footer{
+    background-color: azure;
+}
+footer p{
+    padding: 20px;
+    text-align: center;
+}
+
+/* start animation */
+ 
+
+@keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    } 
+} 
+
+.fadeInDown { 
+    animation-name: fadeInDown; 
+}
+
+
+@keyframes fadeInUp { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    } 
+} 
+
+.fadeInUp { 
+    animation-name: fadeInUp; 
+}
+
+
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+.fadeIn { 
+    animation-name: fadeIn; 
+}
+
+
+
+@keyframes fadeInUpBig { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(2000px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    } 
+} 
+.fadeInUpBig { 
+    animation-name: fadeInUpBig; 
+}
+
+@keyframes fadeInRightBig { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(2000px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInRightBig { 
+    animation-name: fadeInRightBig; 
+}
+
+
+@keyframes fadeInLeftBig { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-2000px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeftBig { 
+    animation-name: fadeInLeftBig; 
+}
+/* end animation */
